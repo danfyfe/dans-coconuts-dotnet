@@ -1,0 +1,22 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form fieldset {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-bottom: 2rem;
+  width: 50%;
+}
+
+.form fieldset label {
+  text-align: left;
+}
+
+.form fieldset textarea {
+  min-height: 20rem;
+  min-width: 50%;
+}
